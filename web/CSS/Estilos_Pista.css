@@ -1,0 +1,65 @@
+/*[draggable] 
+{
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  /* Required to make elements draggable in old WebKit 
+  -khtml-user-drag: element;
+  -webkit-user-drag: element;
+}*/
+
+.cuadro-container {
+  position:relative;
+  left:200px;
+  width:960px;
+}
+#cuadro1
+{
+    background: #55f;
+    float: left;
+    width: 190px;
+    height: 490px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#cuadro2 
+{
+    background: #5f5;
+    float: left;
+    width: 600px;
+    height: 600px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.cuadradito 
+{
+    //background: #288;
+    //border: 2px solid #882;
+    width: 80px;
+    height: 80px;
+    //padding: 0 10px 15px;
+    //margin: 5px;
+    cursor: move;
+}
+
+#arrastrable1 
+{
+    //background: #228;
+    //border: 2px solid #822;
+}
+
+#arrastrable2 
+{
+    //background: #282;
+    //border: 2px solid #228;
+}
+
+#arrastrable3 
+{
+    //background: #822;
+    //border: 2px solid #282;
+}

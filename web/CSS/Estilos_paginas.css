@@ -1,0 +1,215 @@
+@charset "utf-8";
+/* CSS Document */
+
+.Logo
+{
+    	top: 0px;
+	left: 0px;
+        width:150px;
+	height:150px;
+}
+.principal 
+{
+	border: 0px;
+	position: absolute;
+        background-color:#e44e2d;
+	height:150px;
+        //#00aaff;azul
+        text-align: left;
+	top: 0px;
+	left: 150px;
+        right: 0px;
+}
+
+.segundo 
+{
+	border: 0px;
+	position: absolute;
+        background-color:#1d1d1d;
+        text-align:center;
+	top: 150px;
+	left: 0px;
+        right: 0px;
+	//color:#ff3700;
+            //#e44e2d;naranja
+}
+
+#Contenido 
+{
+        border: 0px;
+        position: absolute;
+        background-color:#cdcdcd;
+	text-align:center;
+	top: 210px;
+        height:400px;
+	left: 0px;
+	right: 0px;
+               
+}
+
+.boton{
+     border: 0px;
+     position: absolute;
+     text-align: center;
+     height: 100px;
+     top: 800px;
+     left: 10px;
+     right: -700px;
+     
+}
+
+#Contenido1 
+{
+        border: 0px;
+        position: absolute;
+        background-color:#cdcdcd;
+	text-align:center;
+	top: auto;
+        right: auto;
+        left: auto;
+               
+}
+
+#calendario{
+        border: 0px;
+        position: absolute;
+        background-color:#cdcdcd;
+	text-align:center;
+	top: 210px;
+        height:400px;
+	left: 0px;
+	right: 0px;
+}
+#barra1
+{
+    border: 0px;
+    position: absolute;
+    background-color:#cdcdcd;    
+    top: 610px;
+    left: 0px;
+    right: 0px;
+    height:300px;
+    width:450px;
+
+}
+#barra2
+{
+    border: 0px;
+    position: absolute;
+    background-color:#cdcdcd;    
+    top: 610px;
+    left: 450px;
+    right: 0px;
+    height:300px;
+    width:450px;
+}
+#barra3
+{
+    border: 0px;
+    position: absolute;
+    background-color:#cdcdcd;    
+    top: 610px;
+    left: 900px;
+    right: 0px;
+    height:300px;
+    width:450px;
+}
+
+.lab
+{
+    color:#e44e2d;
+    font-weight: bold;
+}
+
+h1
+{
+    color:#fefefe;
+    font-family:"Helvetica", Arial;
+    text-align:center;
+}
+h2
+{
+    color:#1d1d1d;
+    font-family:"Helvetica", Arial;
+    text-align:center;
+}
+nav ul li
+{
+	display:inline-block;
+	margin-right:40px;
+        font-family:"Helvetica", Arial;
+	color:#e44e2d;
+	cursor:pointer;
+	padding:5px;
+	transition:all, 0.5s, linear;
+	-webkit-transition:all, 0.5s, linear;
+	-moz-transition:all, 0.5s, linear;
+	-o-transition:all, 0.5s, linear;
+	
+}
+nav  ul li:hover
+{
+	background-color:#fff;
+	color:#1d1d1d;
+	border-radius:4px;
+}
+nav ul li a
+{
+	text-decoration:none;
+}
+
+
+#texto_principal
+{
+	width:1200px;
+	height:900px;
+	background-color:#1d1d1d;
+	color:#fff;
+	margin:0 auto;
+	text-align:center;
+	border-radius:20px;
+	padding:20px;
+	box-shadow:0px 0px 20px rgba(0, 0, 0, 0.5); 
+}
+
+a
+{
+	color:#e44e2d;
+	font-weight:bold;
+}
+
+
+label 
+{
+	display:block;
+}
+#btn_submit
+{
+	border:none;
+	background-color:#FFF;
+	color:#e44e2d;
+	padding:4px;
+	margin:20px;
+	cursor:pointer;
+}
+
+.pie
+{
+	position: absolute;
+	top: 870px;
+	left: 0px;
+        right: 0px;
+        height: 50px;
+        background-color:#1d1d1d;
+        font-weight: bold;
+	text-align: left;
+	color:white;
+	font-family:"Helvetica", Arial;
+    
+}
+
+
+
+	
+
+
